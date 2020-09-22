@@ -91,6 +91,13 @@ var basicTypes = map[string]string{
 var stdlibObject = map[string]string{
 	"&{time Time}":       "time.Time",
 	"&{json RawMessage}": "json.RawMessage",
+	"&{types String}":    "string",
+	"&{types Bool}":      "bool",
+	"&{types Int}":       "int",
+	"&{types Int64}":     "int64",
+	"&{types Int32}":     "int32",
+	"&{types Float64}":   "float64",
+	"&{types Float32}":   "float32",
 }
 
 var customObject = map[string]string{
