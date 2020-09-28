@@ -98,6 +98,7 @@ var stdlibObject = map[string]string{
 	"&{types Int32}":     "int32",
 	"&{types Float64}":   "float64",
 	"&{types Float32}":   "float32",
+	"&{base ObjectID}":   "string",
 }
 
 var customObject = map[string]string{
