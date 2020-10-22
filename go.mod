@@ -3,7 +3,6 @@ module github.com/beego/bee
 go 1.13
 
 require (
-	github.com/BurntSushi/toml v0.3.1
 	github.com/astaxie/beego v1.12.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/flosch/pongo2 v0.0.0-20200529170236-5abacdfa4915
@@ -15,5 +14,8 @@ require (
 	github.com/pelletier/go-toml v1.2.0
 	github.com/smartwalle/pongo2render v1.0.1
 	github.com/spf13/viper v1.7.0
+	github.com/stretchr/testify v1.4.0 // indirect
+	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
+	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/yaml.v2 v2.3.0
 )

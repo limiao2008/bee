@@ -90,6 +90,7 @@ var basicTypes = map[string]string{
 
 var stdlibObject = map[string]string{
 	"&{time Time}":       "time.Time",
+	"&{types Time}":      "time.Time",
 	"&{json RawMessage}": "json.RawMessage",
 	"&{types String}":    "string",
 	"&{types Bool}":      "bool",
