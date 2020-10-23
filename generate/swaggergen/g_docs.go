@@ -86,6 +86,8 @@ var basicTypes = map[string]string{
 	// builtin golang objects
 	"time.Time":       "string:datetime",
 	"json.RawMessage": "object:",
+	"base.ObjectID":   "string",
+	"ObjectID":        "string",
 }
 
 var stdlibObject = map[string]string{
